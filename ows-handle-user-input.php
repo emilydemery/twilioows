@@ -18,13 +18,23 @@
 	
 	else if ($user_pushed == 3)
 	{
-		echo '<Dial>+12124428833</Dial>';
+		echo '<Dial>+12126399675</Dial>';
 	}
 	# @end snippet
 	
 	else if ($user_pushed == 4)
 	{
+		echo '<Dial>+12124428833</Dial>';
+	}
+	
+	else if ($user_pushed === 5)
+	{
 		echo '<Dial>+12127887210</Dial>';
+	}
+		
+	else if ($user_pushed == 805)
+	{
+		echo '<Dial>+16465304568</Dial>';
 	}
 	else {
 		// We'll implement the rest of the functionality in the 

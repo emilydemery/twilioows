@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-	<Gather action="ows-handle-user-input.php" numDigits="1">
+	<Gather action="ows-handle-user-input.php" numDigits="3">
 		<Say voice="woman">Welcome to the New York City Arrest Hotline for Occupy Wall Street. Stay safe, stay calm, stay respect-ful.  </Say>
 		<Say voice="woman">To call N Y C L U Arrest Hotline, press 1.</Say>
 		<Say voice="woman">To call National Loyers Guild  Arrest Hotline, press 2.</Say>
-		<Say voice="woman">To call the Citizens Complaint Review Board for unlawful arrest, press 3.</Say>
-		<Say voice="woman">To be connected to your city council person, press 4.</Say>
+		<Say voice="woman">To dial 311 from anywhere in the country, press 3.</Say>
+		<Say voice="woman">To call the Citizens Complaint Review Board for unlawful arrest, press 4.</Say>
+		<Say voice="woman">To be connected to your New York city council person, press 5.</Say>
 	</Gather>
 	<!-- If customer doesn't input anything, prompt and try again. -->
 	<Say voice="woman">Sorry, please repeat your response.</Say>
